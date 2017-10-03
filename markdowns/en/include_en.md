@@ -1,6 +1,6 @@
-# The include fault
+# La faille include
 
-The include () function in PHP is used to execute php code that is located in another file. Example:
+La fonction include() en PHP sert a exécuter du code php qui se situe dans un autre fichier. Exemple: 
 
 ```
 <?php
@@ -8,20 +8,21 @@ The include () function in PHP is used to execute php code that is located in an
 include(bth.php)
 ```
 
-In this case, the code in bth.php will be executed.
+Dans ce cas, c'est le code dans bth.php qui sera exécuté.
 
-If the developer writes this code:
+Si par contre le développeur écrit ce code :
+
 ```
 <?php
 
 include($_GET('file'));
 ```
 
-To exploit this vulnerability, we can use the following URL:
+Pour exploiter cette faille, on peut utiliser l'URL suivante :
 
 >monsite.tld/index.php?file=/etc/passwd
 
-Here the "include" function will include the text of the "/ etc / passwd" file, and thus display its contents. It is possible to change "/ etc / passwd" to another server file that is normally not accessible, or even remote code accessible from another server.
+Ici la fonction "include" va inclure le texte du fichier "/etc/passwd", et donc afficher son contenu. Il est possible de changer "/etc/passwd" en un autre fichier du serveur qui n'est normalement pas accesible, ou même par du code distant accessible sur un autre serveur.
 
 Exemple : 
 
