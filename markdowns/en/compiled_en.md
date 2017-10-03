@@ -1,42 +1,45 @@
-# Compiler & Decompiler
+# Compilateur & Décompilateur
 
-A compiler is the term used to designate a program that transforms a written source code in a programming language into another computer language.
-It transforms a simple language comprehensible by man into a more complex language comprehensible by machine, machine language.
-Conversely, a program performing the inverse stain is a decompiler.
+Un compilateur est le terme utilisé pour désigner un programme qui transforme un code source écrit dans un langage de programmation en un autre langage informatique.
+Il transforme un langage simple compréhensible par l'homme en un language plus complexe compréhensible par la machine, le language machine.
+Inversement, un programme effectuant la tâche inverse est un décompilateur.
 
-For example, after writing a program in C language, we can compile it with GCC in order to have an executable of our program.
+Par exemple, après avoir écrit un programme en language C, on peut le compiler avec GCC afin d'avoir un exécutable de notre programme.
 
 `gcc mon_programme.c -o mon_executable`
 
-To win the next exercice you need to compile 'hello.c' like this :
+Pour réussir l'exercice suivant, décommente le code, compile le programme et exécute le :
 
 `gcc hello.c -o hello`
 
-And execute :
+puis
 
 `./hello`
 
+Ici c'est un language qui doit être compilé avant d'être exécuté, du C.
 
-@[Uncomment the code, and compile and run ./hello]({"project":"compilation", "stubs": ["hello.c"], "command": "./install.sh"})
+@[Décommente le code, compile le et exécute le pour réussir l'exercice]({"project":"compilation", "stubs": ["hello.c"], "command": "./install.sh"})
 
-# Interpreteur
+# Interpréteur
 
-The interpreter is a tool that analyzes your source code, translates it into machine language and executes it.
-Where your compiler compiles your code once and generates an executable, the interpreter will re-interpret your code every time you launch your program.
+L'interpréteur est un outil qui analyse votre code source, le traduit en language machiné et l'exécute.
+Là où votre compilateur compile votre code une seule fois et génère un exécutable, l'interpréteur va réinterpréter votre code à chaque lancement de votre programme.
 
-* A script program is executed from the source file via a script interpreter.
-* A compiled program is executed from a block in machine language resulting from the translation of the source file.
-* A "semi-interpreted" or "semi-compiled" language includes an interpreter that reads the target language before generating a "Bytecode". A virtual machine will then execute this bytecode. The best-known semi-interpreted language is Java.
 
-An exemple in python, an interpreter langauge, use thaht command :
+* Un programme script est exécuté à partir du fichier source via un interpréteur de script.
+* Un programme compilé est exécuté à partir d'un bloc en langage machine issu de la traduction du fichier source.
+* Un langage "semi-interprété" ou "semi-compilé" comprend un interprète qui lit le langage cible avant de générer un "Bytecode". Une machine virtuelle va ensuite exécuter ce bytecode. Le langage semi-interprété le plus connu est le Java.
+
+Ici on a un language interprété, du Python. Pour l'exécuter utilise la commande :
 
 `python hello.py`
 
-@[Uncomment the code and run the program]({"project":"interpreter", "stubs": ["hello.py"], "command": "./install.sh"})
+@[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter", "stubs": ["hello.py"], "command": "./install.sh"})
 
-We skip the compiling step, python read the code and execute directly.
+On saute l'étape compilation, l'interpréteur lit est-on interprète directement le code.
 
-An exemple en ruby, use that command for running the program :
- `ruby jello.rb`
+Ici un autre example en ruby. Pour l'exécuter utilise la commande :
 
- @[Uncomment code  and run the program]({"project":"interpreter_php", "stubs": ["hello.rb"], "command": "./install.sh"})
+`ruby hello.rb`
+
+@[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter_php", "stubs": ["hello.rb"], "command": "./install.sh"})
