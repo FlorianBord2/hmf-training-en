@@ -1,57 +1,56 @@
-# Protocol & Service
+# Protocole & Service
 
-A single server can not communicate with the outside. This is why there are protocols and services.
+Un serveur seul ne peut pas communiquer avec l'extérieur. C'est pourquoi il existe des protocoles et des services.
 
-# Protocol
+## Protocole
 
-A protocol is a serie of steps to allow communication between multiple computers or networked peripherals.
+Un protocole est une série d'étapes à suivre pour permettre une communication entre plusieurs ordinateurs ou périphériques reliés en réseau.
 
-## OSI Model
+## Modèle OSI
 
-The OSI (Open Systems Interconnection) model is a standard for network communication of all computer systems. It is a model of communication between computers proposed by ISO that describes the functionalities necessary for the communication and organization of these functions.
+Le modèle OSI (de l'anglais Open Systems Interconnection) est un standard de communication, en réseau, de tous les systèmes informatiques. C'est un modèle de communications entre ordinateurs proposé par l'ISO qui décrit les fonctionnalités nécessaires à la communication et l'organisation de ces fonctions.
 
 ## TCP/IP
 
-TCP/IP (acronym for Transmission Control Protocol / Internet Protocol) is a communication protocol. TCP/IP consists of two protocols: TCP, which manages packet flows, and IP, for error checking.
+TCP/IP (acronyme de Transmission Control Protocol / Internet Protocol) est un protocole de communication. TCP/IP se compose de deux protocoles: TCP, qui gère les flux de paquets, et IP, pour la vérification des erreurs.
 
 ## SNMP
 
-Simple Network Management Protocol (SNMP) is a communication protocol that allows network administrators to manage network equipment, monitor and diagnose network and hardware problems remotely.
+Le protocole SNMP (Simple Network Management Protocol) est un protocole de communication qui permet aux administrateurs réseau de gérer les équipements réseau, de surveiller et de diagnostiquer à distance les problèmes de réseau et de matériel.
 
-# Service
+## Service
 
-A service is a software element that provides reusable functionality in multiple business process contexts
+Un service est un élément logiciel qui fournit des fonctionnalités réutilisables dans plusieurs contextes de processus métiers.
 
 ## DHCP
 
-Dynamic Host Configuration Protocol (DHCP) is a network protocol whose role is to automatically configure a station's IP settings, including automatically assigning it an IP address and a subnet mask, network.
-
+Dynamic Host Configuration Protocol (DHCP, protocole de configuration dynamique des hôtes) est un protocole réseau dont le rôle est d'assurer la configuration automatique des paramètres IP d'une station, notamment en lui affectant automatiquement une adresse IP et un masque de sous-réseau.
 
 ## DNS
 
-The Domain Name System (DNS) is an essential system for the Internet. It is, among other things, the service that makes it possible to establish the correspondence between the domain name and its IP address.
+Le DNS (Domain Name System) est un système essentiel au fonctionnement d'Internet. C'est entre autres, le service qui permet d'établir la correspondance entre le nom de domaine et son adresse IP.
 
 ## SMTP, POP & IMAP
 
-SMTP stands for Simple Message Transfer Protocol, which is used to forward e-mail messages over networks. An SMTP server is a service that listens on port 25, its main objective is to route mails from the address of the recipient. The Post Office Protocol (POP), which listens on port 110, has a specific purpose: to allow the user to pick up his mail from a host that does not contain his mailbox. POP establishes a dialog between the e-mail software (MUA) and the user's mailbox on the server. IMAP (Internet Message Access Protocol), which listens on port 143, is a mail retrieval protocol. IMAP4 is thus an alternative to POP3. Not only does IMAP offer more services than POP, but they are also more sophisticated. These three protocols form the e-mail services.
+SMTP signifie Simple Message Transfert Protocole, ce protocole est utilisé pour transférer les messages électroniques sur les réseaux. Un serveur SMTP est un service qui écoute sur le port 25, son principal objectif est de router les mails à partir de l'adresse du destinataire. Le protocole POP (Post Office Protocol), qui écoute sur le port 110, a un objectif précis : permettre à l'utilisateur de relever son courrier depuis un hôte qui ne contient pas sa boîte aux lettres. POP établie un dialogue entre le logiciel de messagerie (MUA) et la boîte aux lettres de l'utilisateur sur le serveur. IMAP (Internet Message Access Protocol), qui écoute sur le port 143, est un protocole de récupération de mails. IMAP4 se pose donc comme une alternative a POP3. Non seulement IMAP propose plus de services que POP, mais ceux-si sont aussi plus évolués. Ces trois protocoles forment les services d'emails.
 
 ## WEB WS-*
 
-WEB WS-* Services refers to the software implementation of WS- * specifications and is based on a set of basic protocols and standards used for the exchange of data between applications in heterogeneous environments.
+Les Services WEB WS-* désignent l'implémentation logicielle des spécifications WS-* et reposent tous sur un ensemble de protocoles et de standards de base utilisés pour l'échange de données entre applications dans des environnements hétérog
 
-?[Which protocol is used for e-mail ?]
+?[Quels protocol sert a envoyer des Mail ?]
 -[x] SMTP
 -[ ] POP
 -[ ] IMAP
 -[ ] CARAMAIL
 
-?[What services can be used to link a domain name to an ip address ?]
+?[Quels service permet de faire le liens entre un nom de domaine et une adresse ip ?]
 -[ ] DHCP
 -[x] DNS
 -[ ] POSTAL
 -[ ] POP
 
-::: A quick summary?
-What it is important to understand, that is, you are able to succeed in circumventing a security, you must know each of its cogs.
-Understand how it works.
+::: Un rapide résumer ?
+Ce qu'il est important de comprendre c'est que si vous vouliez réussir à contourner une sécuriser, il vous faut connaitre chacun de ses rouages.
+Comprendre comment elle fonctionne.
 :::
