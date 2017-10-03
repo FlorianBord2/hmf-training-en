@@ -14,7 +14,7 @@ plan:
   statement: markdowns/en/communication_en.md
 - title: Coder
   statement: markdowns/en/coding_en.md
-- title: Algorithms
+- title: Algorithmie
   statement: markdowns/en/algorithm_v2_en.md
 - title: Compilation and interpretation
   statement: markdowns/en/compiled_en.md
