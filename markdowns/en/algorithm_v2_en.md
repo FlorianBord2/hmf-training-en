@@ -1,49 +1,54 @@
 # Alghorithm
 
-Alghorithmia is an operation or instruction sequence that allows a problem to be solved or a result to be obtained.
+L'alghorithmie est une suite d'opérations ou d'instructions permettant de résoudre un probléme ou d'obtenir un résultat.
 
-Let us take as an example a basic language, C.
+Prenons comme exemple un language de base, le C.
 
 ## Variable
 
-To start doing the operation you will need variables, example:
+Pour commencer a faire des opération il va vous falloir des variables, exemple :
 
 ```int    A;```
 
-I get a variable of type **int** named **A**. Now I will assign a value to the variable that I just declared, for example:
+j'obtiens une variable de type **int** qui se nome **A**.
+Mintenant je vais assigner une valeur a ma variables que je viens de déclarer, exemple :
 
 ```
 int    A;
 A = 42;
 ```
 
-I can also assign a value to the variable on the line where I declare it, for example:
+Je peut aussi assigné une valeur a ma variable sur la ligne ou je la déclare, exemple :
 
 ```int    A = 42;```
 
-There are different types of variables, an **int** can store integer values ​​-2147483648 to 2147483647. To store a larger value you will need to change the type of variable.
+Il existe différents type de variables, un **int** pourra stocker des entier de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
 
-Now that we have variables, let's talk about the next tools.
+Mintenant que nous avont des variables, parlons des prochain outils.
 
-## **while**
+## La boucle **tant que** (while)
 
-The 'while' loop will repeat operations **as long as** ...
-Example:
+La boucle while va répeter les opérations **tant que** ...
+Exemple :
 
 ```
 int    var = 0;
 
 while (var < 42)
 	{
-		var = var + 1;
+	var = var + 1;
  	}
 ```
 
-Here **while** my variable **var** is strictly inferior to 42, we carry out the instructions in the loop. So here the loop will be repeated 42 times. Once the condition is fulfilled the code reading resumes under the loop.
+Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectue les instruction dans la boucle. Donc ici la boucle va se repter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
 
-## **For**
+## La boucle **pour** (For)
 
-The "for" loop allows you to repeat one or more statements as long as a test is verified. The most used "for" loop consists of having a variable, "i", initialized to 0 and repeating an instruction as long as "i" is less than a number such as 3. The instruction contained in the "for" loop will be repeated 3 times. (Once at 0, once at 1, then at 2, then "i" is equal to 3, then "i" does not check the inferiority condition at 3). Example:
+La boucle "for" vous permet de répéter une ou plusieurs instructions tant qu'un test est vérifié.
+
+La boucle "for" la plus utilisée consiste à avoir une variable, "i", initialisée à 0 et répéter une instruction tant que "i" est inférieur à un nombre tel que 3, par exemple.
+
+Ainsi, l'instruction contenue dans la boucle "for" sera répété 3 fois. (Une fois à 0, une fois à 1, puis à 2, alors "i" est égal à 3, alors "i" ne vérifie pas la condition d'infériorité à 3). Exemple :
 
 ```for(var i = 0; i < 3; i++)
 {
@@ -51,29 +56,30 @@ The "for" loop allows you to repeat one or more statements as long as a test is 
 }
 ```
 
-## **if, else if, else**
+## Le **Si**, **sinon si**, **sinon** (if, else if, else)
 
-The if is a condition, for example:
+Le si est une condition, exemple :
 
 ```
 int     var = 2;
 
 if (var == 2)
 	{
-		printf("var = 2");
+		printf("var vaut bien 2");
 	}
 ```
 
-Here the statements in the if (between the brackets) will only be executed if the condition is true, **printf ()** is a function that allows to display text.
-So in this case my program will show "var = 2".
-These are examples of conditions that can be used in the following conditions:
+Ici les instruction dans le if (entre les crochet) ne vont s'executer que si la condition est remplie.
+**printf()** est une fonction qui permet d'afficher du texte.
 
-* \> , < , >=, <= (Upper, lower, higher or equal, lower or equal)
-* !=, == (
-Different, equal)
+Donc dans le cas present mon programme va bien afficher "var vaut bien 2".
+Voila quels que exemples de condition que l'on peut utiliser dans les condition :
+
+* \> , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
+* !=, == (différent, egal)
 
 
-If I add the else, else if, for example:
+Mintenant si j'ajoute les else, else if, exemple :
 
 ```
 int    var = 42;
@@ -92,17 +98,17 @@ else
 	}
 ```
 
-?[Which message will be displayed ?]
+?[Quels message vas s'afficher ?]
 - [ ] 1
 - [ ] 2
 - [x] 3
 
-You understood ? Perfect !
+Vous avez compris ? Parfait !
 
-You have just seen the basic tools to create c algorithm, it's tools are common to many languages.
-Whatever loop example in other language:
+Vous venez de voir les outils de base pour crée des algorithme en c, c'est outils sont commun a de nombreux languages.
+Quels que exemple de boucle dans d'autre language :
 
-Ruby :
+En Ruby :
 ```
 while (compteur <= 4)
   print compteur
@@ -110,7 +116,7 @@ while (compteur <= 4)
 end
 ```
 
-Java
+En Java
 ```
 while (a < b)
 {
@@ -118,38 +124,41 @@ while (a < b)
 }
 ```
 
-Python
+En Python
 ```
 while i < 10
 	print("i")
 	i++;
 ```
 
-As you saw, they're all the same.
+Comme vous le voyez, toute se resemblent.
 
-@[Do an "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
+@[Fait un "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
-It was simple :)
-Go to a more complex !
-I ask you to produce code that will display the alphabet.
-`"printf (" abcdefghijklmnopqrstuvwxyz ");` You say ?
-**Interdiction to use the printf** function. You will use :
-- **while loop**
-- **a variable**
-- the **my_putchar ()** (function that displays the parameter you pass to it between the parentheses.)
+C'etais simple hien :)
+Passont a plus complexe !
+Je vous demande de produire du code qui va afficher l'alphabet.
 
-To succeed at this exercise you'll need to look at the **ascii table**. In this table you will see that decimal value ​​representing characters. Take a look [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
+`printf("abcdefghijklmnopqrstuvwxyz");` me dite vous ?
 
-?[Which decimal value is the character 'a' ?]
+**Interdicton d'utiliser la fonction printf**.
+Vous aller utiliser :
+- une **boucle while**
+- **une variable**
+- la fonction **my_putchar()** (qui affiche le parametre que vous lui passer entre parenthése)
+
+Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous aller voir que des valeurs decimale represente des caractéres. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
+
+?[Quels valeur decimal vaut le caractére 'a' ?]
 - [ ] 65
 - [ ] 141
 - [x] 97
 - [ ] 61
 
-@[Write a function that will display the alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
+@[Ecris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
 
-::: A clue ?
-Suppose that I declare a variable of type **int** which is named **i**, I say that "i = 97".
+::: Un indice ?
+Supposont que je déclare une variable de type **int** qui sapelle **i**, je dit que "i = 97".
 
 ```
 int i;
@@ -157,16 +166,15 @@ i = 97;
 my_putchar(i);
 ```
 
-The variable i contains a decimal value which is equal to the character 'a' so I will display 'a'
-
+La variable i contient une valeur décimal qui vaut le caractère 'a' donc je vais bien afficher un 'a'
 :::
 
 :::Solution
  ```
-	int i = 'a';
-	while(i <= 'z')
+	int i = 'a'; // déclaration de la varibale et je lui donne la valueur 'a'
+	while(i <= 'z') // tant que i (qui vaut le caractére 'a') est inférieur ou egal au caractére 'z'
 	{
-		my_putchar(i);
-		i++;
+		my_putchar(i); // afficher i
+		i++; // incrémenter i
 	}
  ```
