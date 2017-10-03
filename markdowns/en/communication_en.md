@@ -1,16 +1,16 @@
 # Communication
 
-With protocols and services, computers can discuss together. APIs allows developers to communicate more easily with services.
+Avec les protocoles et les services, les ordinateurs peuvent discuter ensemble. Les APIs permettent aux développeurs de communiquer plus facilement avec les services.
 
-# APIs
+# Les APIs
 
-API is an acronym for Applications Programming Interface. An API is a programming interface that allows you to 'plug in' to an application to exchange data. An API is proposed and opened by the program owner. APIs are used in different areas of digital marketing.
+API est un acronyme pour Applications Programming Interface. Une API est une interface de programmation qui permet de se 'brancher' sur une application pour échanger des données. Une API est ouverte et proposée par le propriétaire du programme. Les API sont utilisées dans différents domaines du marketing digital.
 
 ## SOAP
 
-SOAP (former acronym for Simple Object Access Protocol) is an object-oriented RPC protocol built on XML. It allows the transmission of messages between remote objects, which means that it allows an object to invoke methods of objects physically located on another server. The transfer is most often done using the HTTP protocol, but can also be done by another protocol, such as SMTP.
+SOAP (ancien acronyme de Simple Object Access Protocol) est un protocole de RPC orienté objet bâti sur XML. Il permet la transmission de messages entre objets distants, ce qui veut dire qu'il autorise un objet à invoquer des méthodes d'objets physiquement situés sur un autre serveur. Le transfert se fait le plus souvent à l'aide du protocole HTTP, mais peut également se faire par un autre protocole, comme SMTP.
+
 
 ## REST
 
-REST (Representational State Transfer) is an architecture style that is based on the HTTP protocol: A resource (via its unique URI) is accessed to perform various operations (GET read, POST writes, PUT modification, DELETE deletion). These operations are natively supported by HTTP.
-
+REST (Representational State Transfer) est un style d’architecture qui repose sur le protocole HTTP : On accède à une ressource (par son URI unique) pour procéder à diverses opérations (GET lecture, POST écriture, PUT modification, DELETE suppression). Ces opérations sont nativement supportées par HTTP.
