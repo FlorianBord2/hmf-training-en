@@ -18,7 +18,7 @@ plan:
   statement: markdowns/en/algorithm_v2_en.md
 - title: Compilation et interprétation
   statement: markdowns/en/compiled_en.md
-- title: Exploiting
+- title: Exploiter
   statement: markdowns/en/exploiting_en.md
 - title: SQL Injection
   statement: markdowns/en/hacking_sql_en.md
