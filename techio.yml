@@ -16,7 +16,7 @@ plan:
   statement: markdowns/en/coding_en.md
 - title: Algorithmie
   statement: markdowns/en/algorithm_v2_en.md
-- title: Compilation and interpretation
+- title: Compilation et interprétation
   statement: markdowns/en/compiled_en.md
 - title: Exploiting
   statement: markdowns/en/exploiting_en.md
