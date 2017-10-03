@@ -28,7 +28,7 @@ plan:
   statement: markdowns/en/include_en.md
 - title: Upload de fichier
   statement: markdowns/en/file_upload_en.md
-- title: Human vulnerability
+- title: Faille Humaine
   statement: markdowns/en/se_en.md
 projects:
   exo1:
