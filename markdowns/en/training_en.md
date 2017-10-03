@@ -1,42 +1,52 @@
 # Hacking Training Center
 
-Welcome in the HackMyFortress - Hacking Training Center ! You want to defeat the fortress ? First, you have to learn. This online training will be updated regulary.
+Bienvenue dans le hackMyFortress - Hacking training Center ! Vous voulez vaincre la forteresse mais vous ne connaissez rien aux hackings ? suivez ce cours en ligne pour apprendre à maitriser les techniques et les outils des hackers. Il sera mis à jour régulièrement.
 
-## Basics
+# Les Bases
 
-## What you need
+## De quoi avez-vous besoin
 
-I've listened someone asking : what do I need to follow this online hacking super soldier course ? Simple, these things :
-
-* Fingers (or a voice with a speech recognition software)
-* A computer, a tablet or a smartphone
+* Un ordinateur, une tablette ou un smartphone
 * Internet
-* Curiosity and imagination
-* And, it's important, a brain
+* De la curiosité et de l'imagination
 
-Now, your first lesson :
+## Le binaire
 
->There are 10 types of people in this world, those who understand binary and those who dont.
+Un ordinateur comprend un langage basé sur 2 valeurs : le binaire. C'est comme nos chiffres classiques (que l'on appel base décimal, pour 10), sauf que ça commence à 0, et ça finit à 1.
 
-?[Why 10 types of people ?]
--[ ] 10 types of people ?
--[ ] 10 egal 2 in octal
--[x] 10 egal 2 in bynary
--[ ] 42 !!
+Prenons quelques exemples :
+* 0 en base 10 = 0 en base binaire
+* 1 en base 10 = 1 en base binaire
+* 2 en base 10 = 10 en base binaire
+* 5 en base 10 = 101 en base binaire
 
-You got it : go to the next point ! Else, a clue : counting in binary (00, 01, ...). Yes, training starts now.
+Voyons voir su vous avez compris :
 
-## The content
+> Il y a 10 types de personnes dans ce monde, ceux qui comprennent le binaire, et ceux qui ne le comprennent pas.
 
-In this online training course, you'll find theory and practice. You can then test it in real world against the fortress to earn the reward. This course contains :
+?[Pourquoi 10 types de personnes ?]
+-[ ] Hein ?!
+-[ ] Parce que 10 en octal ça fait 2
+-[x] Parce que 10 en binaire ça fait 2
+-[ ] 42 !
+
+:::Un indice :
+comptez en binaire (00, 01, ...) ;)
+:::
+
+Vous avez compris : allez à la prochaine étape !
+
+## Le Contenu
+
+Dans cette formation en ligne, vous trouverez de la théorie et de la pratique. Vous pouvez ensuite tester vos connaissances dans le monde réel contre la forteresse pour gagner la récompense. Ce cours contient :
 
 * Introduction
-* Code and languages
-* Vulnerabilities and exploitation
-* And jokes (:
+* Code et langages
+* Vulnerabilités et exploitation
+* Et des blagues (:
 
-Now, you can go to the Introduction if you want to follow the course logic, else, you can learn what you want.
+Vous pouvez dès à présent vous rendre à l'Introduction si vous voulez suivre la logique du cours, sinon, vous pouvez aller apprendre ce que vous voulez.
 
-# More
+# Plus
 
-If you want to contact us, feel free to use the contact form on the home page of [HackMyFortress](http://hackmyfortress.com/)
+Si vous voulez nous contacter, vous pouvez utiliser le formulaire de contact sur la page d'accueil : [HackMyFortress](http://hackmyfortress.com/)
