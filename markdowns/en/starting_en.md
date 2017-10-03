@@ -1,81 +1,82 @@
-# Starting
+# Commencer
 
-To understand computer & hacking, it's necessary to see that a computer system is composed by 3 main components : hardware, software and human. Hardware is the physical part of the system. Software is the logical part of the system. And human is the creator, and the user.
+Pour comprendre l'informatique et le piratage informatique, il est nécessaire de voir qu'un système informatique est composé de 3 composants principaux: matériel, logiciel et humain. Le matériel est la partie physique du système. Le logiciel est la partie logique du système. Et l'humain est le créateur, et l'utilisateur.
 
-Each part is important when we talk about hacking : they all have their vulnerabilities. Some examples :
+Tous les élements sont importants quand on parle de hacking : ils ont tous leurs vulnérabilités. Quelques exemples :
 
 * IPhone Jailbreak : Hardware
 * SQL Injection : Software
-* Social Engineering : Human
+* Social Engineering : Humain
 
 ![Alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/software-hardware-user.png "Sofware")
 
-An illustration with Hackmyfortress.com :
+Une illustration avec Hackmyfortress.com
 
-* Hardware : servers where are the site and the database
-* Software : the webserver
-* Human : creators/administrators of the website
+* Hardware : les serveurs où sont le site et la base de données
+* Software : le serveur web
+* Humain : créateurs/administrateurs du site
 
-To understand how works IT, know the history of computing technologies is primordial.
+Pour comprendre comment fonctionne l'informatique, il est primordial de connaitre l'histoire des technologies informatiques.
 
-## History of computer
 
-The birth of computers comes from Turing and the famous Turing Machine. The concept of this machine is purely abstract: a reading head reads an infinite ribbon. This ribbon is composed of boxes in which there are symbols coming from a known alphabet. Reading this ribbon allows you to perform actions, such as replacing the symbol in the current cell, and reading another box on the ribbon. By creating an alphabet composed of 0 and 1, we arrive at the binary model, the current model of computer.
+# Histoire de l'informatique
 
-### An example of interactive Turing Machine
+La naissance des ordinateurs provient de Turing et de la célèbre Machine de Turing. Le concept de cette machine est purement abstrait: une tête de lecture lit un ruban infini. Ce ruban est composé de cellules dans lesquelles il ya des symboles provenant d'un alphabet connu. La lecture de ce ruban vous permet d'effectuer des actions, telles que le remplacement du symbole dans la cellule en cours et la lecture d'une autre cellule sur le ruban. En créant un alphabet composé de 0 et 1, nous arrivons au modèle binaire, le modèle courant de l'informatique.
 
-[Turing machine](https://interstices.info/autres/grains-int/machine-turing/index.html)
+## Un exemple de la machine de Turing
 
-# The beginning of computer
+[machine de Turing](https://interstices.info/autres/grains-int/machine-turing/index.html)
+
+# Les débuts de l'ordinateur
 
 ## Mainframe
 
-The first real computer was the big ENIAC (Electrical Numerical Integrator and Calculator) machine, created by John W. Mauchly and J. Presper Eckert at the University of Pennsylvania. It used words of ten decimal digits instead of binary. ENIAC machine used more than 15 000 vacuum tube (also named thermionic valve, or lamp). ENIAC was Turing-complete : it can be programmed to resolve all problems. Vacuum tubes are fragiles and are very hot when ENIAC works, so, when an insect burned on a lamp, the lamp explode. They call it : a bug. The executable instructions of ENIAC programs were stored in separate units, which were plugged to form a route.
+Le premier véritable ordinateur était la grande machine ENIAC (Electrical Numerical Integrator and Calculator), crée par John W. Mauchly et J. Presper Eckert à l'Université de Pennsylvanie. Il a utilisé des mots de dix chiffres décimaux au lieu de binaire. La machine ENIAC a utilisé plus de 15 000 tubes à vide (également appelés valves thermioniques, ou lampes). ENIAC a été Turing-complet: il peut être programmé pour résoudre tous les problèmes. Les tubes à vide sont fragiles et très chauds quand ENIAC fonctionne, donc, lorsqu'un insecte brûle sur une lampe, la lampe éclate. Ils appellent ça: un bug . Les instructions exécutables des programmes ENIAC ont été stockées dans des unités séparées, qui ont été reliées pour former une route.
 
-?[What is the weight of the big ENIAC?]
+?[Quels est le poids de l'ENIAC ?]
 -[ ] 6kg
 -[ ] 42kg
 -[x] 30 000kg
 -[ ] 2407kg
 
-::: Curious ?
+::: Curieux ?
 ![alt text](https://raw.githubusercontent.com/adrien-thierry/hmf-training/master/src/eniac.jpg "eniac")
 :::
 
-Around the 1950s appeared the transistor : more efficient and smaller, it has replaced big lamp and is present in radios, computers, amplifier ...
+Autour des années 1950 est apparu le transistor: plus efficace et plus petit, il a remplacé les grosses lampes et est présent dans les radios, ordinateurs, amplificateur ...
 
-In the 1960s, thanks to the transistor, IBM has developped mainframes and was the leader in computer. But mainframes was exepensive, large, and difficult to use.
+Dans les années 1960, grâce au transistor, IBM a développé les mainframes et a été le leader en informatique. Mais les mainframes étaient coûteux, encombrants et difficiles à utiliser.
 
-## Personal computer, or PC
+## L'ordinateur personnel, ou PC
 
-In the 1970s, thanks to Steve Jobs and Steve Wozniak, with their Apple II, the PC was born. It could be programmed with BASIC language, and programs could be stored on audio-cassette recorder.
+Dans les années 1970, grâce à Steve Jobs et Steve Wozniak, avec leur Apple II, le PC est né. Il peuvent être programmés avec le langage BASIC, et les programmes peuvent être stockés sur un enregistreur audio-cassette.
 
-In 1984 appeared the Graphical User Interface (GUI) and the mouse. Also in 1984, Richard Stallman launched is project GNU. In 1985, Windows 1.01 is officialy released.
+En 1984 est apparu l'interface utilisateur graphique (GUI) et la souris. En 1984 également, Richard Stallman a lancé le projet GNU. En 1985, Windows 1.01 est officiellement publié.
 
-In 1991, Linux Torvald started is project of Linux Kernel. Today, most of web servers work with a GNU/Linux system.
+En 1991, Linux Torvald a démarré son projet de noyau Linux. Aujourd'hui, la plupart des serveurs Web fonctionnent avec un système GNU / Linux.
 
-## History of hacking
+## L'histoire du Hacking
 
-'Hacker' or 'Hacking' come from the 1960s when students of MIT founded the TMRC (Tech Model Railroad Club). The WECo (Western Electric Co.) give them some telephones and cross-bars. Members of TMRC hacked those phones to make the first automatic system of a model railroad.
+Les termes «Hacker» ou «Hacking» proviennent des années 1960 lorsque les étudiants du MIT ont fondé le TMRC (Tech Model Railroad Club). La WECo (Western Electric Co.) leur donne du matériel téléphonique. Les membres de TMRC ont bidouillé ces téléphones pour faire le premier système automatique d'un chemin de fer miniature.
 
-## The 'Father' of hackers
+## Le 'père' des hackers
 
-In 1969, John Draper realized that the gift whistles of Cap'n Crunch cereals give a tone of 2600 hertz, the same as the AT & T telephone network to activate the long distance lines. Nicknamed Captain Crunch, he whistles in the cabin phones to make free calls anywhere in the world. He will call this technique the 'phreaking', contraction of phone and freak.
+En 1969, John Draper réalise que les sifflets cadeaux des céréales Cap'n Crunch permet d'obtenir une tonalité de 2600 hertz, la même que le réseau téléphonique d'AT&T pour activer les lignes longues distances. Surnomé Captain Crunch, il siffle dans les combinés téléphoniques des cabines pour passer des appels gratuits partout dans le monde. Il baptisera cette technique le 'phreaking', contraction de phone et freak.
 
-The exploits of Captain Crunch will inspire new computer hackers gathered within the: Homebrew Computer Club. Its members will modify and evolve one of the first individual computers: the Alter 8800. Among them: Steve Wozniak and Steve Jobs.
+Les exploits de Captain Crunch vont inspirer de nouveaux bidouilleurs informatiques réunis au sein du : Homebrew Computer Club. Ses membres vont modifier et faire évoluer l’un des premiers ordinateurs individuels : l’Alter 8800. Parmi eux : Steve Wozniak et Steve Jobs.
 
-## The 1980s
+## Les années 1980
 
-The world discovers hackers in 1983. Kevin Poulsen, 17, intrudes into ARPANet, the Internet's precursor network for the military. In the same year, John Badham's science fiction film 'Wargames' was released. This feature tells the story of a hacker who hijacks the US military computer system and risks triggering a global thermonuclear war. Media and the general public are discovering the 'fantasy' universe of hackers.
+Le monde découvre les hackers en 1983. Kevin Poulsen, âgé de 17 ans, fait une intrusion dans ARPANet, le réseau précurseur d’Internet réservé à l’armée. La même année sort sur les écrans le film de science-fiction 'Wargames' de John Badham. Ce long métrage raconte l'histoire d’un hacker qui pirate le système informatique militaire américain et risque de déclencher une guerre thermonucléaire globale. Les médias et le grand public découvrent l’univers 'fantasmé' des hackers.
 
 In 1988 the worm Morris spreads on ARPAnet and infects more than 6000 computers. Its author, Robert Tappan Morris, is sentenced to three years of judicial follow-up and a fine of $ 10,000.
 
-## 1990s
+## Les années 1990
 
-With the internet, cybercrime is born and hackers are divided. On the one hand the 'black hat', often criminal activities and on the other the 'white hat' with no intention to harm and committed to making public security flaws.
+Avec internet, la cybercriminalité nait et les hackers sont diviséd. D’un côté les 'black hat', aux activités souvent criminelles et de l’autre les 'white hat' sans intention de nuire et attachés à rendre public des failles de sécurité.
 
-Two major arrests in the 1990s. In 1994: Russian mathematician Vladimir Levin subtracts $ 10 million from Citybank, penetrating into the international banking network SWIFT. He will be sentenced to three years in prison. In 1995, Kevin Mitnick was arrested by the FBI. On the run since 1989, he is accused of stealing software and intruding into protected systems. The damage is estimated at more than $ 80 million. He will be sentenced to 5 years' imprisonment. When it is released, it is forbidden to access telephones, networks and computers.
+Deux arrestations majeures dans les années 90. En 1994 : le mathématicien russe Vladimir Levin subtilise 10 millions de dollars à la Citybank, s'introduisant sur le réseau bancaire international SWIFT. Il sera condamné à trois ans de prison. En 1995, Kevin Mitnick est arrêté par le FBI. En cavale depuis 1989, il est notamment accusé de vols de logiciels et d’intrusion dans des systèmes protégés. Le préjudice est évalué à plus de 80 millions de dollars. Il sera condamné à 5 ans d’emprisonnement. A sa sortie, il est interdit d’accès aux téléphones, réseaux et ordinateurs.
 
-## 2000s
+## Les années 2000
 
-The 2000s continue to be marked by cybercrime. However, hackers can blow up industrial locks, such as DVDs or smartphones. The development of politicized groups that use hacker techniques for their militant actions is another trend of the 2000s. This is the case of the highly controversial WikiLeaks, a site that leaks information while ensuring confidentiality sources. One of its founders is none other than Julian Assange, formerly known as 'Mendax', hacker of the group 'International Subversives'.
+Les années 2000 continuent d’être marqué par la cybercriminalité. Cependant, les hackers permettent de faire sauter des verrous industriels, comme les DVD ou les smartphones. Le développement de groupes politisés qui utilisent les techniques des hackers pour leurs actions militantes est une autre tendance des années 2000. C’est le cas du très controversé WikiLeaks, un site qui permet de rendre public des fuites d’informations tout en assurant la confidentialité des sources. Un de ses fondateurs n’est autre que Julian Assange, autrefois connu sous le pseudo 'Mendax', hacker du groupe 'International Subversives'.
