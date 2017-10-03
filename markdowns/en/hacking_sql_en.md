@@ -1,47 +1,50 @@
 # Injection SQL
 
-SQL is a query language. A query language is a computer language used to access data in a database
-SQL injection is a very well known method of attack. It is an extremely powerful attack vector when it is well exploited. It consists in modifying an SQL query by injecting unfiltered pieces of code, usually by means of a form.
+Le SQL est un langage de requête. Un langage de requête est un langage informatique utilisé pour accéder aux données d'une base de données
+L'injection SQL est une méthode d'attaque très connue. C'est un vecteur d'attaque extrêmement puissant quand il est bien exploité. Il consiste à modifier une requête SQL en injectant des morceaux de code non filtrés, généralement par le biais d'un formulaire.
 
-If you want to connect to the administration area of ​​a site, you will be asked to fill in the "login" and "password" fields. These two information will be used to search the database of the site if your account exists.
-SQL injection consents to send in the connected fields code that will be added as a result of the SQL query to modify its behavior and, for example, to authenticate itself without a password.
+Si vous voulez vous connecter à l'espace d'administration d'un site, on va vous demander de remplir les champs "login" et "password". Ces deux informations vont être utilisées pour chercher dans la base de données du site si votre compte existe.
+L'injection SQL constiste à envoyer dans les champs de connexion du code qui va être rajoutée à la suite de la requête SQL pour en modifier son comportement et, par exemple, de s'authentifier sans mot de passe.
 
 ```
-//Exemple of SQL request
-$req = $bdd->query("SELECT * FROM user WHERE login='$login' AND password='$password'");
+//voilà une requête SQL
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='$login' AND password='$password'");
 ?>
 ```
-It can be translated as "Select all in the user column or login = yourPassword and password = your password" if the request is valid then your account exists.
+Elle peut se traduire par "Sélectionne tout dans la colonne utilisateurs où le login = votrePseudo et mot de passe = votremotdepasse" si la requête est valide alors votre compte existe.
 
-If now I use as pseudonym "Flroian09 '#" the request becomes
-
-```
-$req = $bdd->query("SELECT * FROM user WHERE login='florian09#' AND password='$password'");
-```
-
-Knowing that the '#' is a tag to indicate a comment, the query becomes:
+Si maintenant j'utilise comme pseudonyme "Flroian09#'" la requête devient
 
 ```
-$req = $bdd->query("SELECT * FROM user WHERE login='florian09#'")
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'# AND password='$password'");
 ```
 
-So the passwords are no longer checked!
+Sachant que le '#' est une balise pour indiquer un commentaire, la requête devient :
+```
+$req = $bdd->query("SELECT * FROM utilisateurs WHERE login='florian09'#")
+```
 
-?[What is an SQL query ?]
--[ ] Send a message 
--[x] Do a search in a database
--[ ] Show something on the website
+Du coup le mot de passe n'est plus vérifié !
 
-| Title         | Date out | film Genre |
+# #Pratique 
+
+@[Connecte toi au compte 'admin']({"project":"sqli", "command": "./sqli.sh"})
+
+?[A quoi sert une requete SQL ?]
+-[ ] Envoyer des messages
+-[x] Faire une recherche dans une base de donnée
+-[ ] Afficher des images sur le cite
+
+| Titre         | Date de sortie| Genre |
 | :------------ |:-------------:| :-----:|
 | Avatar        | 2009          |Fantasy|
 | Matrix      | 1999     |   Science-fiction |
 | Les Goonies |  1985 |    Ation |
 
-The query in the exercise below can be translated as: "Select **all** in the column **title** where the genre is **adventure**". Make sure to change the request so that all genres are selected.
+La requête dans l'exercice ci-dessous peut se traduire par : "Sélectionne **tout** dans la colonne **titre** où le genre vaut **aventure**". Fais en sorte de transformer la requête pour que tous les genres soient sélectionnés.
 
-@[Show all film!]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project": "exo2"})
+@[Affiche tous les films peu importe leurs genres!]({"stubs": ["for_user_sql.txt"], "command": "python tester_sql.py", "project": "exo2"})
 
-:::Need help ?
-Use the '#' to comment on the part of the code you want to render inoperative.
+:::Besoin d'aide ?
+Utilise le '#' pour commenté la partie du code que tu veux rendre inopérante.
 :::
