@@ -20,7 +20,7 @@ plan:
   statement: markdowns/en/compiled_en.md
 - title: Exploiter
   statement: markdowns/en/exploiting_en.md
-- title: SQL Injection
+- title: Injection SQL
   statement: markdowns/en/hacking_sql_en.md
 - title: XSS vulnerability
   statement: markdowns/en/xss_en.md
