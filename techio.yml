@@ -4,7 +4,7 @@ plan:
   statement: markdowns/welcome.md
 - title: Le cours
   statement: markdowns/en/training_en.md
-- title: Starting
+- title: Démarrer
   statement: markdowns/en/starting_en.md
 - title: Ordinateur
   statement: markdowns/en/computer_en.md
