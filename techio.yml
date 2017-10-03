@@ -6,7 +6,7 @@ plan:
   statement: markdowns/en/training_en.md
 - title: Starting
   statement: markdowns/en/starting_en.md
-- title: Computer
+- title: Ordinateur
   statement: markdowns/en/computer_en.md
 - title: Protocols
   statement: markdowns/en/protocol_en.md
