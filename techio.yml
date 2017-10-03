@@ -1,67 +1,72 @@
-title : Hackmyfortress - Training Center - English
-
+title: Hackmyfortress - Training Center - English
 plan:
-  - title: Welcome
-    statement: markdowns/welcome.md
-  - title: The course
-    statement: markdowns/en/training_en.md
-  - title: Starting
-    statement: markdowns/en/starting_en.md
-  - title: Computer
-    statement: markdowns/en/computer_en.md
-  - title: Protocols
-    statement: markdowns/en/protocol_en.md
-  - title: Communication
-    statement: markdowns/en/communication_en.md
-  - title: Coding
-    statement: markdowns/en/coding_en.md
-  - title: Algorithms
-    statement: markdowns/en/algorithm_v2_en.md
-  - title: Compilation and interpretation
-    statement: markdowns/en/compiled_en.md
-  - title: Exploiting
-    statement: markdowns/en/exploiting_en.md
-  - title: SQL Injection
-    statement: markdowns/en/hacking_sql_en.md
-  - title: XSS vulnerability
-    statement: markdowns/en/xss_en.md
-  - title: Include vulnerability
-    statement: markdowns/en/include_en.md
-  - title: File upload vulnerability
-    statement: markdowns/en/file_upload_en.md
-  - title: Human vulnerability
-    statement: markdowns/en/se_en.md
-
+- title: Bienvenue
+  statement: markdowns/welcome.md
+- title: The course
+  statement: markdowns/en/training_en.md
+- title: Starting
+  statement: markdowns/en/starting_en.md
+- title: Computer
+  statement: markdowns/en/computer_en.md
+- title: Protocols
+  statement: markdowns/en/protocol_en.md
+- title: Communication
+  statement: markdowns/en/communication_en.md
+- title: Coding
+  statement: markdowns/en/coding_en.md
+- title: Algorithms
+  statement: markdowns/en/algorithm_v2_en.md
+- title: Compilation and interpretation
+  statement: markdowns/en/compiled_en.md
+- title: Exploiting
+  statement: markdowns/en/exploiting_en.md
+- title: SQL Injection
+  statement: markdowns/en/hacking_sql_en.md
+- title: XSS vulnerability
+  statement: markdowns/en/xss_en.md
+- title: Include vulnerability
+  statement: markdowns/en/include_en.md
+- title: File upload vulnerability
+  statement: markdowns/en/file_upload_en.md
+- title: Human vulnerability
+  statement: markdowns/en/se_en.md
 projects:
-
   exo1:
     root: code/exo-project
-    runner: python:3
-
+    runner:
+      name: python
+      version: '3'
   exo1bis:
     root: code/exo2-project
-    runner: python:3
-
+    runner:
+      name: python
+      version: '3'
   exo2:
     root: code/sql_exo
-    runner: python:3
-
+    runner:
+      name: python
+      version: '3'
   exo3:
     root: code/nodejs-project/page
-    runner: florianbord2/fortressjs
-
+    runner:
+      name: florianbord2/fortressjs
   sqli:
     root: code/sqli
-    runner: debian:latest
-
+    runner:
+      name: debian
+      version: latest
   compilation:
     root: code/compilation
-    runner: debian:latest
-
+    runner:
+      name: debian
+      version: latest
   interpreter:
     root: code/interpreter
-    runner: debian:latest
-
+    runner:
+      name: debian
+      version: latest
   interpreter_php:
     root: code/interpreter_php
-    runner: debian:latest
+    runner:
+      name: debian
+      version: latest
