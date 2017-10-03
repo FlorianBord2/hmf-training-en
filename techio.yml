@@ -2,7 +2,7 @@ title: Hackmyfortress - Training Center - English
 plan:
 - title: Bienvenue
   statement: markdowns/welcome.md
-- title: The course
+- title: Le cours
   statement: markdowns/en/training_en.md
 - title: Starting
   statement: markdowns/en/starting_en.md
