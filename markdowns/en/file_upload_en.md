@@ -1,38 +1,38 @@
 # File upload
 
-You probably know the HTML tag that allows file upload:
+Vous connaissez sûrement la balise HTML qui permet l'upload de fichier :
 ```
 <input type="file" />
 ```
 
-The upload fault is a vulnerability to upload files with an unauthorized extension, this flaw is due to the incorrect configuration of the upload script or the complete absence of security. This is usually present in image upload scripts.
+La faille upload est une faille permettant d’uploader des fichiers avec une extension non autorisée, cette faille est due à la mauvaise configuration du script d’upload ou à l’absence complète de sécurité. Celle-ci est généralement présente dans les scripts d’upload d’images.
 
-The purpose of this vulnerability is to upload a file with an unauthorized extension. (For example a PHP code) so as to have access to the target server.
+Le but de cette faille est d’uploader un fichier avec une extension non autorisée. (Par exemple un code php) de façon à avoir un accès au serveur cible.
 
-There are several methods for passing protection, if there is protection.
+Il existe plusieurs méthodes pour passer les protections, si protection il y a.
 
-You can alter the file at times of upload with '**Tamper Data**', a firefox browser tool. Thanks to this tool you will be able to upload the file as an image.
-Once the file upload you no longer have to acceder it and execute it with the URL.
+Vous pouvez altérer le fichier au moment de l'upload avec '**Tamper Data**', un outil du naviagteur de firefox. Grâce à ces outils vous allez pouvoir upload le fichier en tant qu'image.
+Une fois le fichier upload vous n'avez plus cas y accéder et l'exécuter avec l'URL.
 
-Second method, double exention.
+Deuxième méthode, la double exention.
 
-Some site checks **the extension of the file** you want to upload, there is a means to bypass this security, **double extension**.
-The idea is to integrate PHP code into a .gif file.
-First, create a .gif file with paint for example, then open file with a hexadecimal editor. Add your PHP code in the .gif file, add the .php extension, which we do "file.php.gif".
-Uploading will be done without worries!
-We went to our file.php.gif?
+Certains sites vérifie **l'extention du fichier** que vous voulez upload, il existe un moyen de contournée cette sécurité, la **double extention**.
+L'idée c'est d'intégrer du code php dans un fichier .gif.
+Tout d'abord crée un fichier .gif avec **paint** par exemple, ensuite ouvrez se fichier avec un éditeur hexadécimal. Ajouter votre code PHP dans le .gif, est ajouté l'extension .php, ce qui nous donne "file.php.gif".
+Maintenant l'upload va s'effectuer sans soucis !
+On se rendra notre fichier.php.gif ?
 
 >http://monsite.com/fichier.php
 
-Done !
+Voila !
 
-## Securing
+## Sécurisation 
 
-* Never rely on what the customer can send.
-* Check the configuration of Apache to act accordingly.
-* Do not place .htaccess in the upload directory
-* Do not allow file overwriting
-* Generate a random name for the uploaded file and save the name in a database.
-* Do not allow to see the index of the upload directory.
-* Assign the correct permissions to the directory.
-* Check the mime-type with getimagesize () and file extents
+* Ne jamais se fier à ce que peut envoyer le client.
+* Vérifier la configuration d’Apache afin d’agir en conséquence.
+* Ne pas placer le .htaccess dans le répertoire d’upload
+* Ne pas permettre l’écrasement de fichier
+* Générer un nom aléatoire pour le fichier uploadé et enregistré le nom dans une base de données.
+* Ne pas permettre de voir l’index of du répertoire d’upload.
+* Assigner les bonnes permissions au répertoire.
+* Vérifier le mime-type avec getimagesize() et l’extension du fichier.
