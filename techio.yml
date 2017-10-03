@@ -22,7 +22,7 @@ plan:
   statement: markdowns/en/exploiting_en.md
 - title: Injection SQL
   statement: markdowns/en/hacking_sql_en.md
-- title: XSS vulnerability
+- title: Faille XSS
   statement: markdowns/en/xss_en.md
 - title: Include vulnerability
   statement: markdowns/en/include_en.md
