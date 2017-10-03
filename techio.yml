@@ -26,7 +26,7 @@ plan:
   statement: markdowns/en/xss_en.md
 - title: Faille include
   statement: markdowns/en/include_en.md
-- title: File upload vulnerability
+- title: Upload de fichier
   statement: markdowns/en/file_upload_en.md
 - title: Human vulnerability
   statement: markdowns/en/se_en.md
