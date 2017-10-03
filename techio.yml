@@ -8,7 +8,7 @@ plan:
   statement: markdowns/en/starting_en.md
 - title: Ordinateur
   statement: markdowns/en/computer_en.md
-- title: Protocols
+- title: Protocoles
   statement: markdowns/en/protocol_en.md
 - title: Communication
   statement: markdowns/en/communication_en.md
