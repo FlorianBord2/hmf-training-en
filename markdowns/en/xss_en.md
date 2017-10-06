@@ -2,7 +2,7 @@
 
 Le cross-site scripting (abrégé XSS), est un type de faille de sécurité des sites web permettant d'injecter du contenu dans une page, d'injecter un script dans l'URL de la page cibler ou bien dans un champ à remplir.
 
-##Comment la déceler ?
+## Comment la déceler ?
 
 Vous arrivez maintenant sur la page internet de votre cible, la faille se trouve dans tous les formulaires (moteur de recherche, systèmes de commentaires, livre d'or chat, essayez-les tous !) à condition que le HTML soit interprété. Pour vérifier si le HTML est activé ou désactivé dans un champ de formulaire on peut effectuer plusieurs tests commencés tout d'abord par insérer du HTML basique dans le champ :
 ```
