@@ -28,29 +28,28 @@ Dynamic Host Configuration Protocol (DHCP, protocole de configuration dynamique 
 
 ## DNS
 
-Le DNS (Domain Name System) est un système essentiel au fonctionnement d'Internet. C'est entre autres, le service qui permet d'établir la correspondance entre le nom de domaine et son adresse IP.
+Le DNS (Domain Name System) est un système essentiel au fonctionnement d'Internet. C'est entre autre, le service qui permet d'établir la correspondance entre le nom de domaine et son adresse IP.
 
 ## SMTP, POP & IMAP
 
-SMTP signifie Simple Message Transfert Protocole, ce protocole est utilisé pour transférer les messages électroniques sur les réseaux. Un serveur SMTP est un service qui écoute sur le port 25, son principal objectif est de router les mails à partir de l'adresse du destinataire. Le protocole POP (Post Office Protocol), qui écoute sur le port 110, a un objectif précis : permettre à l'utilisateur de relever son courrier depuis un hôte qui ne contient pas sa boîte aux lettres. POP établie un dialogue entre le logiciel de messagerie (MUA) et la boîte aux lettres de l'utilisateur sur le serveur. IMAP (Internet Message Access Protocol), qui écoute sur le port 143, est un protocole de récupération de mails. IMAP4 se pose donc comme une alternative a POP3. Non seulement IMAP propose plus de services que POP, mais ceux-si sont aussi plus évolués. Ces trois protocoles forment les services d'emails.
+SMTP signifie Simple Message Transfert Protocole, ce protocole est utilisé pour transférer les messages électroniques sur les réseaux. Un serveur SMTP est un service qui écoute sur le port 25, son principal objectif est de router les mails à partir de l'adresse du destinataire. Le protocole POP (Post Office Protocol), qui écoute sur le port 110, a un objectif précis : permettre à l'utilisateur de relever son courrier depuis un hôte qui ne contient pas sa boîte aux lettres. POP établit un dialogue entre le logiciel de messagerie (MUA) et la boîte aux lettres de l'utilisateur sur le serveur. IMAP (Internet Message Access Protocol), qui écoute sur le port 143, est un protocole de récupération de mails. IMAP4 se pose donc comme une alternative à POP3. Non seulement IMAP propose plus de services que POP, mais ceux-ci sont aussi plus évolués. Ces trois protocoles forment les services d'emails.
 
 ## WEB WS-*
 
-Les Services WEB WS-* désignent l'implémentation logicielle des spécifications WS-* et reposent tous sur un ensemble de protocoles et de standards de base utilisés pour l'échange de données entre applications dans des environnements hétérog
+Les Services WEB WS-* désignent l'implémentation logicielle des spécifications WS-* et reposent tous sur un ensemble de protocoles et de standards de base utilisés pour l'échange de données entre applications dans des environnements hétérogènes.
 
-?[Quels protocol sert a envoyer des Mail ?]
+?[Quels protocole sert à envoyer des mails ?]
 -[x] SMTP
 -[ ] POP
 -[ ] IMAP
 -[ ] CARAMAIL
 
-?[Quels service permet de faire le liens entre un nom de domaine et une adresse ip ?]
+?[Quel service permet de faire le lien entre un nom de domaine et une adresse ip ?]
 -[ ] DHCP
 -[x] DNS
 -[ ] POSTAL
 -[ ] POP
 
-::: Un rapide résumer ?
-Ce qu'il est important de comprendre c'est que si vous vouliez réussir à contourner une sécuriser, il vous faut connaitre chacun de ses rouages.
-Comprendre comment elle fonctionne.
+::: Un rapide résumé ?
+Ce qu'il est important de comprendre, c'est que si vous vouliez réussir à contourner une sécurité, il vous faut connaître chacun de ses rouages, comprendre comment elle fonctionne.
 :::
