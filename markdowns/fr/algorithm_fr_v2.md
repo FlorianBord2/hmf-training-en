@@ -1,6 +1,6 @@
-# Alghorithm
+# Algorithme
 
-L'algorithmie est une suite d'opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
+Un algorithme est une suite d'opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
 
 Prenons comme exemple un language de base, le C.
 
