@@ -1,10 +1,10 @@
 # Hacking Training Center
 
-Bienvenue dans le hackMyFortress - Hacking training Center ! Vous voulez vaincre la forteresse mais vous ne connaissez rien aux hackings ? suivez ce cours en ligne pour apprendre à maitriser les techniques et les outils des hackers. Il sera mis à jour régulièrement.
+Bienvenue dans le hackMyFortress - Hacking training Center ! Vous voulez vaincre la forteresse mais vous ne connaissez rien au hacking ? Suivez ce cours en ligne pour apprendre à maîtriser les techniques et les outils des hackers. Il sera mis à jour régulièrement.
 
 # Les Bases
 
-## De quoi avez-vous besoin
+## De quoi avez-vous besoin ?
 
 * Un ordinateur, une tablette ou un smartphone
 * Internet
@@ -12,7 +12,7 @@ Bienvenue dans le hackMyFortress - Hacking training Center ! Vous voulez vaincre
 
 ## Le binaire
 
-Un ordinateur comprend un langage basé sur 2 valeurs : le binaire. C'est comme nos chiffres classiques (que l'on appel base décimal, pour 10), sauf que ça commence à 0, et ça finit à 1.
+Un ordinateur comprend un langage basé sur 2 valeurs : le binaire. C'est comme nos chiffres classiques (que l'on appelle base décimale, pour 10), sauf que ça finit à 1.
 
 Prenons quelques exemples :
 * 0 en base 10 = 0 en base binaire
@@ -20,7 +20,7 @@ Prenons quelques exemples :
 * 2 en base 10 = 10 en base binaire
 * 5 en base 10 = 101 en base binaire
 
-Voyons voir su vous avez compris :
+Voyons voir si vous avez compris :
 
 > Il y a 10 types de personnes dans ce monde, ceux qui comprennent le binaire, et ceux qui ne le comprennent pas.
 
@@ -42,7 +42,7 @@ Dans cette formation en ligne, vous trouverez de la théorie et de la pratique. 
 
 * Introduction
 * Code et langages
-* Vulnerabilités et exploitation
+* Vulnérabilités et exploitation
 * Et des blagues (:
 
 Vous pouvez dès à présent vous rendre à l'Introduction si vous voulez suivre la logique du cours, sinon, vous pouvez aller apprendre ce que vous voulez.
