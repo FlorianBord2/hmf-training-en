@@ -22,23 +22,23 @@ Ici c'est un language qui doit être compilé avant d'être exécuté, du C.
 
 # Interpréteur
 
-L'interpréteur est un outil qui analyse votre code source, le traduit en language machiné et l'exécute.
-Là où votre compilateur compile votre code une seule fois et génère un exécutable, l'interpréteur va réinterpréter votre code à chaque lancement de votre programme.
+Un interpréteur est un outil qui analyse votre code source, le traduit en language machine et l'exécute.
+Là où votre compilateur compile votre code une seule fois et génère un exécutable, l'interpréteur va ré-interpréter votre code à chaque lancement de votre programme.
 
 
 * Un programme script est exécuté à partir du fichier source via un interpréteur de script.
 * Un programme compilé est exécuté à partir d'un bloc en langage machine issu de la traduction du fichier source.
 * Un langage "semi-interprété" ou "semi-compilé" comprend un interprète qui lit le langage cible avant de générer un "Bytecode". Une machine virtuelle va ensuite exécuter ce bytecode. Le langage semi-interprété le plus connu est le Java.
 
-Ici on a un language interprété, du Python. Pour l'exécuter utilise la commande :
+Ici, on a un language interprété, du Python. Pour l'exécuter utilise la commande :
 
 `python hello.py`
 
 @[Décommente le code et exécute le pour réussir l'exercice]({"project":"interpreter", "stubs": ["hello.py"], "command": "./install.sh"})
 
-On saute l'étape compilation, l'interpréteur lit est-on interprète directement le code.
+On saute l'étape compilation, l'interpréteur lit et interprète directement le code.
 
-Ici un autre example en ruby. Pour l'exécuter utilise la commande :
+Ici, un autre exemple en ruby. Pour l'exécuter utilise la commande :
 
 `ruby hello.rb`
 
