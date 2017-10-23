@@ -1,30 +1,30 @@
 # Alghorithm
 
-L'alghorithmie est une suite d'opérations ou d'instructions permettant de résoudre un probléme ou d'obtenir un résultat.
+L'algorithmie est une suite d'opérations ou d'instructions permettant de résoudre un problème ou d'obtenir un résultat.
 
 Prenons comme exemple un language de base, le C.
 
 ## Variable
 
-Pour commencer a faire des opération il va vous falloir des variables, exemple :
+Pour commencer à faire des opérations, il va vous falloir des variables, exemple :
 
 ```int    A;```
 
-j'obtiens une variable de type **int** qui se nome **A**.
-Mintenant je vais assigner une valeur a ma variables que je viens de déclarer, exemple :
+j'obtiens une variable de type **int** qui se nomme **A**.
+Maintenant, je vais assigner une valeur à ma variable que je viens de déclarer, exemple :
 
 ```
 int    A;
 A = 42;
 ```
 
-Je peut aussi assigné une valeur a ma variable sur la ligne ou je la déclare, exemple :
+Je peux aussi assigner une valeur à ma variable sur la ligne où je la déclare, exemple :
 
 ```int    A = 42;```
 
-Il existe différents type de variables, un **int** pourra stocker des entier de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande il vous faudra changer de type de variable.
+Il existe différents types de variables, un **int** pourra stocker des entiers de valeur **–2147483648** à **2147483647**. Pour stocker une valeur plus grande, il vous faudra changer de type de variable.
 
-Mintenant que nous avont des variables, parlons des prochain outils.
+Maintenant que nous avons des variables, parlons des prochains outils.
 
 ## La boucle **tant que** (while)
 
@@ -40,7 +40,7 @@ while (var < 42)
  	}
 ```
 
-Ici **tant que** ma varibale **var** est strictement infériuer a 42, on effectue les instruction dans la boucle. Donc ici la boucle va se repter 42 fois. Une fois la condition remplie la lecture du code reprend sous la boucle.
+Ici **tant que** ma variable **var** est strictement inférieure à 42, on effectue les instructions dans la boucle. Donc ici, la boucle va se répéter 42 fois. Une fois la condition remplie, la lecture du code reprend sous la boucle.
 
 ## La boucle **pour** (For)
 
@@ -69,17 +69,17 @@ if (var == 2)
 	}
 ```
 
-Ici les instruction dans le if (entre les crochet) ne vont s'executer que si la condition est remplie.
+Ici les instructions dans le if (entre les crochet) ne vont s'exécuter que si la condition est remplie.
 **printf()** est une fonction qui permet d'afficher du texte.
 
-Donc dans le cas present mon programme va bien afficher "var vaut bien 2".
-Voila quels que exemples de condition que l'on peut utiliser dans les condition :
+Donc dans le cas présent, mon programme va bien afficher "var vaut bien 2".
+Voilà quelques exemples d'opérateurs que l'on peut utiliser dans les conditions :
 
 * \> , < , >=, <= (supérieur, inférieur , supérieur ou egal, inférieur ou egal)
 * !=, == (différent, egal)
 
 
-Mintenant si j'ajoute les else, else if, exemple :
+Maintenant si j'ajoute les else, else if, exemple :
 
 ```
 int    var = 42;
@@ -98,15 +98,15 @@ else
 	}
 ```
 
-?[Quels message vas s'afficher ?]
+?[Quel message va s'afficher ?]
 - [ ] 1
 - [ ] 2
 - [x] 3
 
 Vous avez compris ? Parfait !
 
-Vous venez de voir les outils de base pour crée des algorithme en c, c'est outils sont commun a de nombreux languages.
-Quels que exemple de boucle dans d'autre language :
+Vous venez de voir les outils de base pour créer des algorithmes en C. Ces outils sont communs à de nombreux languages.
+Quelques exemples de boucle dans d'autres languages :
 
 En Ruby :
 ```
@@ -131,34 +131,34 @@ while i < 10
 	i++;
 ```
 
-Comme vous le voyez, toute se resemblent.
+Comme vous le voyez, toutes se ressemblent.
 
 @[Fait un "Hello World"]({"stubs": ["for_user.c"], "project":"exo1", "command": "python test_for_user.py"})
 
-C'etais simple hien :)
-Passont a plus complexe !
+C'était simple hien :)
+Passons à plus complexe !
 Je vous demande de produire du code qui va afficher l'alphabet.
 
-`printf("abcdefghijklmnopqrstuvwxyz");` me dite vous ?
+`printf("abcdefghijklmnopqrstuvwxyz");` me dites vous ?
 
 **Interdicton d'utiliser la fonction printf**.
 Vous aller utiliser :
 - une **boucle while**
 - **une variable**
-- la fonction **my_putchar()** (qui affiche le parametre que vous lui passer entre parenthése)
+- la fonction **my_putchar()** (qui affiche le paramètre que vous lui passer entre parenthèses)
 
-Pour réussir c'est exercise vous aller avoir besoin de regarder le **tableau ascii**. Dans ce tableau vous aller voir que des valeurs decimale represente des caractéres. jettez y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
+Pour réussir cet exercice, vous allez avoir besoin de regarder le **tableau ascii**. Dans ce tableau, vous allez voir que des valeurs décimales représentent des caractères. Jetez-y un coup d'oeil [MAN ASCII](http://www.linux-france.org/article/man-fr/man7/ascii-7.html)
 
-?[Quels valeur decimal vaut le caractére 'a' ?]
+?[Quelle valeur décimale vaut le caractère 'a' ?]
 - [ ] 65
 - [ ] 141
 - [x] 97
 - [ ] 61
 
-@[Ecris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
+@[Écris une fonction qui va afficher l'alphabet]({"stubs": ["for_user.c"], "project":"exo1bis", "command": "python test_for_user.py"})
 
 ::: Un indice ?
-Supposont que je déclare une variable de type **int** qui sapelle **i**, je dit que "i = 97".
+Supposons que je déclare une variable de type **int** qui s'appelle **i**, je dis que "i = 97".
 
 ```
 int i;
@@ -166,7 +166,7 @@ i = 97;
 my_putchar(i);
 ```
 
-La variable i contient une valeur décimal qui vaut le caractère 'a' donc je vais bien afficher un 'a'
+La variable i contient une valeur décimale qui vaut le caractère 'a' donc je vais bien afficher un 'a'
 :::
 
 :::Solution
